@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../Css/contato.css">
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Paginas/sobre.html">Sobre</a></li>
+            <li><a href="../Paginas/agendamento.html">Agendamento</a></li>
+            <li><a href="../Paginas/contato.html">Contato</a></li>
+            <li><a href="../Paginas/cadastro.html">Cadastro</a></li>
+            <li><a href="../Paginas/login.html">Login</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <h2 class="title">Entre em Contato</h2>
+            <p>
+                Caso tenha dúvidas, sugestões ou precise de suporte, entre em contato conosco. Estamos à disposição para ajudar!
+            </p>
+            
+            <form action="#" method="POST" class="form-contato">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Sistema de Agendamento Inteligente - Hospital Infantil Sabará</p>
+    </footer>
+</body>
+</html>

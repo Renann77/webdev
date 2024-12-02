@@ -1,0 +1,81 @@
+/* Fundo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../img/download.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contêiner do formulário */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px); /* Fundo embaçado */
+}
+
+/* Caixa do formulário */
+.form-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco translúcido */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Título */
+.form-box h2 {
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+/* Grupos de formulários */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #004080;
+    outline: none;
+}
+
+/* Botão */
+.btn {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #002050;
+}
+
+

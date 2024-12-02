@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Consultas</title>
+    <link rel="stylesheet" href="../Css/agendamento.css">
+</head>
+<body>
+    <header>
+        <h1>Agendamento de Consultas</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Paginas/sobre.html">Sobre</a></li>
+            <li><a href="../Paginas/agendamento.html">Agendamento</a></li>
+            <li><a href="../Paginas/contato.html">Contato</a></li>
+            <li><a href="../Paginas/cadastro.html">Cadastro</a></li>
+            <li><a href="../Paginas/login.html">Login</a></li>
+        </ul>
+    </nav>
+    
+    
+    <main>
+        <div class="container">
+            <h2 class="title">Agende sua Consulta ou Exame</h2>
+            <form action="#" method="POST" class="form-agendamento">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="especialidade">Especialidade:</label>
+                    <select id="especialidade" name="especialidade" required>
+                        <option value="">Selecione</option>
+                        <option value="pediatria">Pediatria</option>
+                        <option value="cardiologia">Cardiologia</option>
+                        <option value="ortopedia">Ortopedia</option>
+                        <option value="dermatologia">Dermatologia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+                <div class="form-group">
+                    <label for="horario">Horário:</label>
+                    <input type="time" id="horario" name="horario" required>
+                </div>
+                <button type="submit" class="btn">Confirmar Agendamento</button>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Sistema de Agendamento Inteligente - Hospital Infantil Sabará</p>
+    </footer>
+</body>
+</html>
